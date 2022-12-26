@@ -1,0 +1,98 @@
+:root {
+  --background-color: rgb(48, 48, 48);
+}
+
+* {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+/* HEADER */
+#container__header {
+  width: 99%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgb(27, 27, 27);
+  box-shadow: 0 8px 25px 0 rgba(94, 94, 94, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 0px 0px 7px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.menu {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+img {
+  width: 50px;
+  border-radius: 25%;
+}
+
+.menu-lista {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-lista a {
+  text-shadow: 0px 2px 4px #818181;
+}
+
+/* FIRST SECTION */
+#first__section {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(90, 90, 90);
+  box-shadow: 1px 1px 10px rgba(207, 207, 207, 0.288);
+  background-image: url(../img/banner.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.rolagem {
+  display: flex;
+  width: 80%;
+  height: 15vh;
+  margin: 5vh auto 0 auto;
+  background-color: rgb(90, 90, 90);
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.item__rolagem {
+  width: 15%;
+  height: 100px;
+  background-color: var(--background-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seta__rolagem {
+  cursor: pointer;
+}
+
+/* SECOND SECTION */
+
+#second__section {
+  width: 100%;
+  height: 100vh;
+}
